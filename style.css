@@ -54,19 +54,12 @@ nav{
     /* background-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%); */
     /* background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%); */
     width: 100%;
+    background-color: #000000;
     height: 80px;
 }
 .logo{
     display: inline;
-    /* width: 150px;
-    height: 150px; */
-    /* border-radius: 80px; */
-    /* border: 2px solid #ad6b13; */
     vertical-align: middle;
-
-    /* background-image: url("Squadlogo_2.png");
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 label.logo-label{
     margin: 10px;
@@ -77,13 +70,7 @@ label.logo-label{
     font-family: 'Righteous', cursive;
     color: rgb(255, 0, 0);
 }
-/* nav .logo i{
-    background: -webkit-linear-gradient(#b50211, #550909);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    vertical-align: baseline;
-    font-size: 2.3rem;
-} */
+
 nav ul{
     float: right;
     margin-right: 20px;
@@ -99,10 +86,17 @@ nav a{
     padding: 7px 13px;
     border-radius: 3px;
     color: rgba(255, 255, 255, 0.8);
-    /* text-transform: uppercase; */
 }
 a.active,a:hover{
     color: #cb0202;
+}
+.navlinks.connect{
+    border-radius: 8px;
+    background-color: #a90404;
+}
+.navlinks.connect:hover{
+    background-color: #6e0202;
+    color: #d2d2d2;
 }
 
 
@@ -126,12 +120,12 @@ a.active,a:hover{
     align-items: center;
     flex-flow: column;
     
-    background: -webkit-linear-gradient(to right, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: -webkit-linear-gradient(to right, #000000, #000000);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #000000, #000000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .main2{
-    position: relative;
+    /* position: relative; */
     margin-inline: 20px;
     width: 700px;
     height: 300px;
@@ -141,7 +135,7 @@ a.active,a:hover{
 }
 
 .main2 h1{
-    position: relative;
+    /* position: relative; */
     padding: 15px;
     font-size: 4.3rem;
     font-weight: 700;
@@ -153,7 +147,7 @@ a.active,a:hover{
     letter-spacing: 5px;
 }
 .main2 h3{
-    position: relative;
+    /* position: relative; */
     font-size: 1rem;
     font-weight: 600;
     color: rgb(255, 0, 0);
@@ -201,7 +195,9 @@ a.active,a:hover{
     margin-top: 30px;
 }
 .box .content h2{
-    font-family: 'Poppins',sans-serif;
+    /* font-family: 'Roboto',sans-serif; */
+    font-family: 'Prosto One', cursive;
+    font-weight: 600;
     /* color: var(--secondary-text-color); */
     color: #d00808;
     line-height: 1.8rem;
@@ -231,7 +227,7 @@ a.active,a:hover{
     padding: 20px 10px;
     background-color: rgba(196, 193, 193, 0.053);
     height: 300px;
-    border-left: 6px solid #6e0202;
+    border-left: 6px solid #ad0202;
    
 }
 .about{
@@ -254,9 +250,17 @@ a.active,a:hover{
     font-size: 1.2rem;
     color: rgba(227, 227, 227, 0.8);
     padding: 20px;
-    
-
-}.about .about-img{
+}
+.about-content .join{
+    background-color: #a90404;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    color: antiquewhite;
+    float: right;
+    right: 10px;
+}
+.about .about-img{
     display: inline;
     width: 500px;
     height: 520px;
@@ -304,12 +308,13 @@ a.active,a:hover{
 .client-section{
     position: relative;
     width:100%; 
-    height: 300px; 
+    height: 400px; 
     background-color: rgba(217, 217, 217, 0.062);
     padding-top: 20px;
     margin-top: 120px;
 }
 .clients{
+    position: relative;
     padding: 0px 50px 0px 50px;
     /* border: 1px solid #6e0202; */
     height: 300px;
@@ -323,9 +328,17 @@ a.active,a:hover{
     font-weight: 700;
     padding: 20px 20px 10px 0px;
 }
-.client-company-logo{
+.client-companies{
+    position: relative;
     flex-wrap: wrap;
+    gap: 30px;
     flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.client-companies img{
+    position: relative;
+    width: 190px;
 }
 
 /* -------footer section--------- */
@@ -351,7 +364,7 @@ footer{
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    border-bottom: 1px solid #7e5c04;
+    border-bottom: 1px solid #7e0404;
 }
 .footer-entity{
     flex-basis: 30%;
@@ -405,6 +418,9 @@ footer{
     color: #7f7979;
     
 }
+.footer-entity ul li a:hover{
+    color: #850909;
+}
 .footer-entity p i{
     vertical-align: middle;
 }.footer-entity .contact-form{
@@ -428,9 +444,10 @@ footer{
 } */
 .copy-right{
     text-align: center;
-    color: #87745b;
+    color: #555;
     padding: 10px;
     font-size: 0.7rem;
+    font-family: 'Roboto',sans-serif;
 }
 /* nmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 
@@ -467,16 +484,18 @@ footer{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: #ccc8c8;
+        background-color: #1e1e1e;
         top: 80px;
         left: 0;
         text-align: center;
         left: -100%;
         transition: all .5s;
+        /* z-index: 5; */
     }
     nav ul li{
+        z-index: 5;
         display: block;
-        background-color: #000000;
+        /* background-color: #ff0000; */
     }
     nav li a{
         font-size: 1rem;
@@ -544,12 +563,24 @@ footer{
         padding: 5px;
         margin-top: 20px;
     }
-    
+    .work{
+        flex-flow: wrap column;
+    }
+    .client-section{
+        height: 800px;
+    }
+    .client-companies{
+        height: fit-content;
+    }
+    .client-companies{
+        flex-wrap: nowrap;
+        flex-flow:column ;
+    }
     .footer-container{
         flex-flow: column;
         flex-wrap: nowrap;
     }
-    .footer-entity ul{
+    .footer-container .links{
         display: none;
     }
 }
