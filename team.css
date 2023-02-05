@@ -161,6 +161,77 @@ a.active,a:hover{
     margin-top: 20px;
     text-align: center;
 }
+.main2 .join{
+    background-color: #a90404;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 45px;
+    font-size: 1rem;
+    color: antiquewhite;
+    right: 10px;
+}
+/* .main2 .join:hover{
+    background: transparent;
+    border: 2px solid #cb0202;
+} */
+.join-button{
+    margin-top: 45px;
+    align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #d68080 0, #ea4040 100%);
+  border: none;
+  border-radius: 6px;
+  box-shadow: rgba(15, 18, 113, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 23px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 45px;
+  /* width: 138px; */
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  margin-inline: auto;
+  text-decoration: none;
+  
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.join-button:focus {
+  box-shadow: #e03c3c 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e03c3c 0 -3px 0 inset;
+}
+
+.join-button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e03c3c 0 -3px 0 inset;
+  transform: translateY(-4px);
+}
+
+.join-button:active {
+  box-shadow: #870303 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.join-button img{
+    vertical-align: middle;
+    
+}
+.join-button span transformed-state{
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+}
+
+.join-button span{
+    transition-delay: 4s;
+}
+
 
 /* SEction header */
 .section-header {
@@ -350,6 +421,9 @@ footer{
     color: #7f7979;
     
 }
+.footer-entity ul li a:hover{
+    color: #850909;
+}
 .footer-entity p i{
     vertical-align: middle;
 }.footer-entity .contact-form{
@@ -493,7 +567,7 @@ footer{
         flex-flow: column;
         flex-wrap: nowrap;
     }
-    .footer-entity ul{
+    .links{
         display: none;
     }
 }
@@ -516,10 +590,6 @@ footer{
     }
     .box2 p{
         font-size: 300px;
-    }
-    .board{
-        position: relative;
-        width: 30%;
     }
 }
 @media (max-width:280px){
