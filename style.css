@@ -305,7 +305,7 @@ a.active,a:hover{
     margin-inline: auto;
 }
 /* --------------====================workexperience---------------====================== */
-.client-section{
+/* .client-section{
     position: relative;
     width:100%; 
     height: 400px; 
@@ -316,7 +316,7 @@ a.active,a:hover{
 .clients{
     position: relative;
     padding: 0px 50px 0px 50px;
-    /* border: 1px solid #6e0202; */
+    
     height: 300px;
 }
 .clients .section-header h2{
@@ -339,8 +339,44 @@ a.active,a:hover{
 .client-companies img{
     position: relative;
     width: 190px;
+} */
+.client-section{
+    position: relative;
+    width:100%; 
+    height: 450px; 
+    background-color: rgba(217, 217, 217, 0.062);
+    padding-top: 20px;
+    margin-top: 120px;
 }
-
+.clients{
+    position: relative;
+    padding: 0px 50px 0px 50px;
+    /* border: 1px solid #6e0202; */
+    height: 300px;
+}
+.clients .section-header h2{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 20px 10px 0px;
+}
+.client-companies{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: 15%;
+    /* justify-content: center;
+    align-items: center; */
+}
+.client-companies .logo{
+    height: 46px;
+}
+.client-companies .bluxcart{
+    width: 180px;
+    height: 180px;
+}
 /* ------------------=========contact-section------------------------------------ */
 .contact-section{
     background-color: #000000;
