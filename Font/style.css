@@ -3,11 +3,9 @@
     src: url('Giaza.otf') format('OpenType');
     font-weight: 900;
 }
-.main2 h1{
+.main-body h1{
     font-family: 'Giaza';
 }
-@font-face {
-    font-family: 'Vintage Moon';
-    src: url('vintage-moon.ttf') format('TrueType');
-    /* font-weight: 500; */
+.logo-label h2{
+    font-family: 'Giaza';
 }
