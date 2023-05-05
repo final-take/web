@@ -3,9 +3,20 @@
     src: url('Giaza.otf') format('OpenType');
     font-weight: 900;
 }
+.container nav .logo-label{
+    font-family: 'Giaza';
+}
 .main-body h1{
     font-family: 'Giaza';
 }
-.logo-label h2{
+.footer-entity h2{
     font-family: 'Giaza';
 }
+.box .content h2{
+    font-family: 'Giaza';
+}
+/* @font-face {
+    font-family: 'Vintage Moon';
+    src: url('vintage-moon.ttf') format('TrueType');
+} */
+
