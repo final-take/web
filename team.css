@@ -270,10 +270,10 @@ font-size: 18px;
 
 .about-section{
     background-color: #9d9c9c20;
-    border-left: 6px solid #ad1313;
-    border-right: 6px solid #ad1313;
+/*     border-left: 6px solid #ad1313;
+    border-right: 6px solid #ad1313; */
     opacity: 0.9;
-    border-radius: 42px 53px 42px 53px;
+/*     border-radius: 42px 53px 42px 53px; */
 }
 .about{
     margin-inline: auto;
